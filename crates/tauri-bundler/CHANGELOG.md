@@ -1,5 +1,12 @@
 # Changelog
 
+## \[2.7.6]
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.8.2`
+- Upgraded to `tauri-macos-sign@2.3.3`
+
 ## \[2.7.5]
 
 ### Enhancements

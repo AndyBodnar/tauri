@@ -1,5 +1,33 @@
 # Changelog
 
+## \[2.9.7]
+
+### Enhancements
+
+- [`2d28e3143`](https://www.github.com/tauri-apps/tauri/commit/2d28e3143ee3d97d7570ea03877aa00a0d6e47d0) ([#14632](https://www.github.com/tauri-apps/tauri/pull/14632) by [@sftse](https://www.github.com/tauri-apps/tauri/../../sftse)) Small code refactors for improved code readability. No user facing changes.
+- [`a2abe2e6b`](https://www.github.com/tauri-apps/tauri/commit/a2abe2e6bcb9e1eed8484240dfdb76a5bc28ae58) ([#14607](https://www.github.com/tauri-apps/tauri/pull/14607) by [@sftse](https://www.github.com/tauri-apps/tauri/../../sftse)) Simplified internal representation of `features: Option<Vec<String>>` with `Vec<String>`, no user facing changes
+- [`84b04c4a8`](https://www.github.com/tauri-apps/tauri/commit/84b04c4a8d3310b7a7091d10e36244bf94996e51) ([#14759](https://www.github.com/tauri-apps/tauri/pull/14759) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Added new environment variables for `tauri signer sign` command, to align with existing environment variables used in `tauri build`, `tauri bundle` and `tauri signer generate`
+
+  - `TAURI_SIGNING_PRIVATE_KEY`
+  - `TAURI_SIGNING_PRIVATE_KEY_PATH`
+  - `TAURI_SIGNING_PRIVATE_KEY_PASSWORD`
+
+  The old environment variables are deprecated and will be removed in a future release.
+
+  - `TAURI_PRIVATE_KEY`
+  - `TAURI_PRIVATE_KEY_PATH`
+  - `TAURI_PRIVATE_KEY_PASSWORD`
+
+### Bug Fixes
+
+- [`1b0e335d3`](https://www.github.com/tauri-apps/tauri/commit/1b0e335d3f3445948d6590f7e074275d97cd9859) ([#14713](https://www.github.com/tauri-apps/tauri/pull/14713) by [@wasuaje](https://www.github.com/tauri-apps/tauri/../../wasuaje)) `tauri signer sign` doesn't work for files without an extension
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.8.2`
+- Upgraded to `tauri-macos-sign@2.3.3`
+- Upgraded to `tauri-bundler@2.7.6`
+
 ## \[2.9.6]
 
 ### What's Changed

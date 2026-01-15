@@ -1,5 +1,21 @@
 # Changelog
 
+## \[2.10.0]
+
+### Bug Fixes
+
+- [`ff5d76ca2`](https://www.github.com/tauri-apps/tauri/commit/ff5d76ca214b94a7b6e88aa4f0f797bbf747824d) ([#14653](https://www.github.com/tauri-apps/tauri/pull/14653) by [@Legend-Master](https://www.github.com/tauri-apps/tauri/../../Legend-Master)) `WindowConfig::focus` is set to `false` in `WindowConfig::default()`
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.8.2`
+- Upgraded to `tauri-build@2.5.4`
+- Upgraded to `tauri-runtime-wry@2.10.0`
+- Upgraded to `tauri-runtime@2.10.0`
+- Upgraded to `tauri-macros@2.5.3`
+- [`75057c7c0`](https://www.github.com/tauri-apps/tauri/commit/75057c7c08f0d4d3dd8d10cea4e2217e5d61fe1a) ([#14778](https://www.github.com/tauri-apps/tauri/pull/14778) by [@FabianLars](https://www.github.com/tauri-apps/tauri/../../FabianLars)) **Breaking Change** for `with_webview` users: Updated webkit2gtk-rs crates to `v2.0.2`.
+- [`75057c7c0`](https://www.github.com/tauri-apps/tauri/commit/75057c7c08f0d4d3dd8d10cea4e2217e5d61fe1a) ([#14778](https://www.github.com/tauri-apps/tauri/pull/14778) by [@FabianLars](https://www.github.com/tauri-apps/tauri/../../FabianLars)) Update wry to `v0.54`.
+
 ## \[2.9.5]
 
 ### Bug Fixes
